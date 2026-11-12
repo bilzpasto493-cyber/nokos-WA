@@ -3,67 +3,70 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Nokos Virtual (Free Trial)</title>
+<title>Nokos WA - Free Trial</title>
 <style>
   :root { color-scheme: dark; }
   body { font-family: system-ui, sans-serif; background: #0d0d0d; color: #eaeaea; margin: 0; padding: 20px; }
-  h1 { font-size: 1.3rem; color: #10b981; margin-bottom: 5px; }
-  p.sub { font-size: 0.85rem; color: #888; margin-bottom: 20px; }
-  .card { background: #1a1a1a; border: 1px solid #333; border-radius: 10px; padding: 15px; margin-bottom: 15px; display: flex; justify-content: space-between; align-items: center; }
-  .card h2 { font-size: 1rem; margin: 0 0 5px 0; color: #fff; }
-  .card p { font-size: 0.75rem; margin: 0; color: #aaa; }
-  .btn { background: #2563eb; color: white; border: none; padding: 8px 15px; border-radius: 6px; font-weight: bold; text-decoration: none; font-size: 0.85rem; }
+  h1 { font-size: 1.4rem; color: #10b981; margin-bottom: 5px; text-align: center; }
+  p.sub { font-size: 0.85rem; color: #888; margin-bottom: 20px; text-align: center; }
+  .container { max-width: 600px; margin: auto; }
+  .card { background: #1a1a1a; border: 1px solid #333; border-radius: 10px; padding: 15px; margin-bottom: 12px; display: flex; justify-content: space-between; align-items: center; }
+  .card-info h2 { font-size: 1rem; margin: 0 0 5px 0; color: #fff; }
+  .card-info p { font-size: 0.75rem; margin: 0; color: #aaa; }
+  .btn { background: #2563eb; color: white; border: none; padding: 8px 15px; border-radius: 6px; font-weight: bold; text-decoration: none; font-size: 0.8rem; white-space: nowrap; margin-left: 10px; display: inline-block; }
   .btn:active { background: #1d4ed8; }
-  .warning { background: #422006; border: 1px solid #854d0e; padding: 10px; border-radius: 8px; color: #fef08a; font-size: 0.8rem; margin-bottom: 20px; }
+  .warning { background: #422006; border: 1px solid #854d0e; padding: 12px; border-radius: 8px; color: #fef08a; font-size: 0.8rem; margin-bottom: 20px; line-height: 1.4; }
 </style>
 </head>
 <body>
 
-<h1>Nokos Free Trial</h1>
-<p class="sub">Daftar situs penyedia nomor virtual gratis (buat OTP).</p>
+<div class="container">
+  <h1>Nokos WA Free Trial</h1>
+  <p class="sub">Daftar situs penyedia nomor virtual gratis.</p>
 
-<div class="warning">
-  ⚠️ <b>Peringatan:</b> Nomor gratis biasanya cuma bisa terima 1-2 SMS, dan nomornya dipake bareng-bareng orang lain. Jangan dipake buat akun penting (Bank/DANA). WA dari nomor gratisan sering langsung kena banned.
-</div>
-
-<div class="card">
-  <div>
-    <h2>Receive-SMS-Online</h2>
-    <p>Banyak nomor dari berbagai negara, gratis.</p>
+  <div class="warning">
+    ⚠️ <b>Peringatan:</b> Nomor gratis biasanya cuma bisa terima 1-2 SMS, dan nomornya dipake bareng-bareng orang lain. Jangan dipake buat akun penting (Bank/DANA). WA dari nomor gratisan sering langsung kena banned.
   </div>
-  <a href="https://receive-sms-online.info/" target="_blank" class="btn">Buka</a>
-</div>
 
-<div class="card">
-  <div>
-    <h2>Quackr.io</h2>
-    <p>Nomor sementara, UI bagus, gratis.</p>
+  <div class="card">
+    <div class="card-info">
+      <h2>Receive-SMS-Online</h2>
+      <p>Banyak nomor dari berbagai negara, gratis.</p>
+    </div>
+    <a href="https://receive-sms-online.info/" target="_blank" class="btn">Buka</a>
   </div>
-  <a href="https://quackr.io/" target="_blank" class="btn">Buka</a>
-</div>
 
-<div class="card">
-  <div>
-    <h2>ReceiveSMS.co</h2>
-    <p>Banyak pilihan nomor US & UK.</p>
+  <div class="card">
+    <div class="card-info">
+      <h2>Quackr.io</h2>
+      <p>Nomor sementara, UI bagus, gratis.</p>
+    </div>
+    <a href="https://quackr.io/" target="_blank" class="btn">Buka</a>
   </div>
-  <a href="https://receivesms.co/" target="_blank" class="btn">Buka</a>
-</div>
 
-<div class="card">
-  <div>
-    <h2>Temp-Mail (Nomor)</h2>
-    <p>Layanan nomor virtual dari TempMail.</p>
+  <div class="card">
+    <div class="card-info">
+      <h2>ReceiveSMS.co</h2>
+      <p>Banyak pilihan nomor US & UK.</p>
+    </div>
+    <a href="https://receivesms.co/" target="_blank" class="btn">Buka</a>
   </div>
-  <a href="https://temp-number.com/" target="_blank" class="btn">Buka</a>
-</div>
 
-<div class="card">
-  <div>
-    <h2>SMSPool (Free Trial)</h2>
-    <p>Kadang ngasih trial gratis buat nomor tertentu.</p>
+  <div class="card">
+    <div class="card-info">
+      <h2>Temp-Number</h2>
+      <p>Layanan nomor virtual dari TempMail.</p>
+    </div>
+    <a href="https://temp-number.com/" target="_blank" class="btn">Buka</a>
   </div>
-  <a href="https://smspool.net/" target="_blank" class="btn">Buka</a>
+
+  <div class="card">
+    <div class="card-info">
+      <h2>SMSPool (Free Trial)</h2>
+      <p>Kadang ngasih trial gratis buat nomor tertentu.</p>
+    </div>
+    <a href="https://smspool.net/" target="_blank" class="btn">Buka</a>
+  </div>
 </div>
 
 </body>
